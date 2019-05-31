@@ -1,0 +1,36 @@
+.addList{
+    background-color: rgb(243, 244, 254);
+    border-radius: 9px;
+    box-shadow: 1px 2px 7px 0 rgb(214, 214, 244);
+    cursor: pointer;
+    display: inline-block;
+    height: 40px;
+    margin: 0 10px;
+    text-align: center;
+    vertical-align: top;
+    width: 300px;
+    img{
+        height: 16px;
+        margin: 0 10px;
+        width: 16px;
+    }
+    span{
+        color: #6e8fb5;
+        font-size: 16px;
+        margin: 0;
+    }
+    &:hover{
+        background-color: rgb(220, 228, 255);
+        span{
+            color: rgb(78, 115, 160);
+        }
+    }
+}
+.addListWrapper{
+    align-items: center;
+    display: -webkit-flex;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    width: 100%;
+}

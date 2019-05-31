@@ -1,0 +1,79 @@
+.popup{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.685);
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+}
+.popupInner{
+    background-color: white;
+    max-width: 400px;
+    height: 160px;
+    min-width: 240px;
+    position: absolute;
+    width: 50%;
+    border-radius: 8px;
+}
+.popupInnerHeader{
+    width: 100%;
+    height: 35px;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgb(165, 165, 165);
+    p{
+        font-size: 16px;
+        font-weight: 400;
+        color: rgb(73, 73, 73);
+    }
+    img{
+        position: absolute;
+        right: 15px;
+        height: 15px;
+        width: 15px;
+        cursor: pointer;
+    }
+}
+.popupInnerText{
+    height: 85px;
+    width: 100%;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    p{
+        font-size: 15px;
+        font-weight: 400;
+    }
+}
+.popupInnerButtons{
+    height: 40px;
+    width: 100%;
+    button{
+        height: 100%;
+        display: inline-block;
+        width: 50%;
+        border: none;
+        font-size: 16px;
+        cursor: pointer;
+    }
+    :first-child{
+        border-radius: 0 0 0 8px;
+        background-color: rgb(190, 72, 59);
+        color: white;
+    }
+    :last-child{
+        border-radius: 0 0 8px 0;
+        background-color: rgb(204, 204, 204);
+    }
+}

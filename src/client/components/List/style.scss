@@ -1,0 +1,95 @@
+.list{
+    background-color: rgb(243, 244, 254);
+    border-radius: 9px;
+    box-shadow: 1px 2px 7px 0 rgb(214, 214, 244);
+    display: inline-block;
+    margin: 0 10px;
+    min-height: 100px;
+    vertical-align: top;
+    width: 300px;
+}
+.listHeader{
+    align-items: flex-start; 
+    border-radius: 9px 9px 0 0;
+    cursor: pointer;
+    display: -webkit-flex;
+    display: flex;
+    min-height: 40px;
+    margin: 0;
+    width: 100%;
+    textarea{
+        background: transparent;
+        border-radius: 3px;
+        border: none;
+        box-shadow: none;
+        color: rgb(65, 65, 65);
+        cursor: pointer;
+        font-size: 18px;
+        font-weight: 600;
+        font-family: 'Roboto', sans-serif;
+        line-height: 20px;
+        margin: 6px 15px 0 15px;
+        overflow-wrap: break-word;
+        overflow-x: hidden;
+        overflow-y: auto;
+        padding: 4px 8px;
+        resize: none;
+        white-space: pre-wrap;
+        width: 70%;
+        &:focus{
+            outline: 0;
+            background-color: white;
+            box-shadow: inset 0 0 0 2px  #0079bf;
+        }
+    }
+    img{
+        width: 12px;
+        height: 12px;
+        margin: 15px 15px auto auto;
+    }
+    &:hover{
+        background-color: rgb(220, 228, 255);
+    }
+}
+.listCardArrayWrapper{
+    max-height: 900px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    width: 100%;
+}
+.listCardArray{
+    align-items: center;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    justify-content: space-evenly;
+    margin: 5px 0;
+    width: 100%;
+}
+.listAddCard{
+    align-items: center;
+    border-radius: 0 0 9px 9px;
+    cursor: pointer;
+    display: -webkit-flex;
+    display: flex;
+    height: 45px;
+    justify-content: center;
+    width: 100%;
+    &:hover{
+        background-color: rgb(220, 228, 255);
+        span{
+            color: rgb(78, 115, 160);
+        }
+    }
+    img{
+        height: 16px;
+        margin: 0 7px 0 0;
+        width: 16px;
+    }
+    span{
+        color: #6e8fb5;
+        font-size: 16px;
+        margin: 0;
+    }
+}
