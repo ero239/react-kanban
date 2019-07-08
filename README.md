@@ -6,12 +6,6 @@
 - SCSS support 
 - ES2017+
 
-## Features
-- preconfigured modal windows
-- preconfigured eslint and Prettier code formatter
-- React Hot Loader
-- Linux/MacOS/Windows
-
 ### Scripts
 ```bash
 # run development mode
